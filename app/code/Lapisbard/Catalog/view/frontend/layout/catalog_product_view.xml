@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<body>
+    <referenceContainer name="product.info.main">
+        <block class="Lapisbard\Catalog\Block\Product\View\Extra"
+               name="product.view.extra"
+               template="Lapisbard_Catalog::product/view/extra.phtml"
+               after="product.info.overview">
+        </block>
+    </referenceContainer>
+</body>
