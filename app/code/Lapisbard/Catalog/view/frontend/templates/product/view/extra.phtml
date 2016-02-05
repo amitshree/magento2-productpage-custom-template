@@ -1,16 +1,5 @@
 <?php /* @var $block \Lapisbard\Catalog\Block\Product\View\Extra */?>
-<?php $_product = $block->getProduct() ?>
+<?php $_product = $block->getProduct() 
+      echo $_product->getName();
+?>
 
-<div class="addthis_toolbox addthis_default_style" addthis:url="<?php echo $_product->getProductUrl() ?>">
-    <a class="addthis_button_facebook"></a>
-    <a class="addthis_button_twitter"></a>
-    <a class="addthis_button_email"></a>
-    <!--<a class="addthis_button_compact"></a>-->
-</div>
-<script type="text/javascript">var addthis_config = {"data_track_clickback":false};</script>
-<script type="text/javascript" async src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4def63cd3cf37569"></script>
-<script type="text/javascript">
-    var addthis_config = {
-        ui_language: "en"
-    }
-</script>
